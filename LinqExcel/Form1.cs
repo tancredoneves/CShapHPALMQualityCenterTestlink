@@ -23,7 +23,7 @@ namespace LinqExcel
         {
             try
             {
-
+                // pega caminho CSV
                 string arquivo_CSV = "" + @"C:\Users\LGMONEZI\Desktop\testlink\Cadastro de Proposta.xls";
                 XDocument docXML = ConvertExcel_XML.ConversorExcel_XML(arquivo_CSV);
                 //Salva o arquivo XML
